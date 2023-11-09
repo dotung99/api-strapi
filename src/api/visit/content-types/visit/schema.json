@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "visits",
+  "info": {
+    "singularName": "visit",
+    "pluralName": "visits",
+    "displayName": "visit",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "participant": {
+      "type": "boolean",
+      "required": false
+    },
+    "TEST": {
+      "type": "string"
+    }
+  }
+}

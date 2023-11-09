@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lists",
+  "info": {
+    "singularName": "list",
+    "pluralName": "lists",
+    "displayName": "list",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "wish": {
+      "type": "text"
+    },
+    "wedd": {
+      "type": "boolean"
+    },
+    "visit": {
+      "type": "customField",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    }
+  }
+}
